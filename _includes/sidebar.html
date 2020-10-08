@@ -1,0 +1,109 @@
+{% if page.url contains '/cn/' %}
+
+	<div class="sidebar">
+	  <div class="container sidebar-sticky">
+		<div class="sidebar-about">
+		  <h2>
+			<img src="{{ site.url }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+																				 margin-right:auto; max-width: 80%">
+			<a href="{{ site.url }}/cn/">
+			  {{ site.cntitle }}
+			</a>
+		  </h2>
+		  <p class="lead">{{ site.cndescription }}</p>
+		</div>
+		
+
+		<nav class="sidebar-nav">
+			<ul class="not-marked-menu">
+				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/cn/' %} active{% endif %}" href="{{ site.url }}/cn/">Главная (cn)</a></li>
+
+			  {% comment %}
+				The code below dynamically generates a sidebar nav of pages with
+				`layout: page` in the front-matter. See readme for usage.
+			  {% endcomment %}
+
+			  {% assign pages_list = site.pages %}
+			  {% for node in pages_list %}
+				{% if node.title != null %}
+				  {% if node.layout == "page" %}
+					{% if node.lang == "cn" %}
+						<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+					{% endif %}
+				  {% endif %}
+				{% endif %}
+			  {% endfor %}
+
+			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub project</a></li>
+			</ul>
+		</nav>
+
+	  </div>
+	</div>
+
+	<div class="flags">
+		<a href= "{{ site.url }}/{{ page.url | remove: "/cn/" }}">
+			<img src="{{ site.url }}/public/ru-flag.png" width="45" height="30" style="margin-left:auto; margin-bottom:0%; 
+																				  max-width: 5%">
+		</a>
+	</div>
+	
+{% else %}
+
+	<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+			
+	<label class="btn-menu" for="hmt">
+		<span class="first"></span>
+		<span class="second"></span>
+		<span class="third"></span>
+	</label>
+	
+	<div class="sidebar hidden-menu">
+	  <div class="container sidebar-sticky">
+		<div class="sidebar-about dropdown-menu">
+		  <h2>
+			<img src="{{ site.url }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+																				 margin-right:auto; max-width: 80%">
+			<a href="{{ site.url }}">
+			  {{ site.title }}
+			</a>
+		  </h2>
+		  <p class="lead">{{ site.description }}</p>
+		</div>
+		
+		<nav class="sidebar-nav">
+					
+			<ul class="not-marked-menu">
+				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}">Главная</a></li>
+
+
+			  {% comment %}
+				The code below dynamically generates a sidebar nav of pages with
+				`layout: page` in the front-matter. See readme for usage.
+			  {% endcomment %}
+			  
+			  {% assign pages_list = site.pages %}
+			  {% for node in pages_list %}
+				{% if node.title != null %}
+				  {% if node.layout == "page" %}
+					{% if node.lang == "ru" %}
+						<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+					{% endif %}
+				  {% endif %}
+				{% endif %}
+			  {% endfor %}
+
+			  <li class="not-marked-menu"><a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub project</a></li>
+			</ul>
+		</nav>
+
+	  </div>
+	</div>
+
+	<div class="flags">
+		<a href="{{ site.url }}/cn{{ page.url }}">
+			<img src="{{ site.url }}/public/cn-flag.jpg" width="45" height="30">
+		</a>
+	</div>
+	
+{% endif %}

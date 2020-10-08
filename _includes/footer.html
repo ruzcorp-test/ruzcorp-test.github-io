@@ -1,0 +1,48 @@
+{% if page.url contains '/cn/' %}
+	<div class="footer">
+
+	<div class="width-control">
+
+		<div class="copyright">
+		
+				<p style="font-size: 15px">Сhenese description</p>  
+			
+				<p style="font-size: 10px">&copy; 2016–{{ site.time | date: '%Y' }}</p>
+			
+		</div>
+		
+		<div class="social">
+			<p>Social</p>
+			<a href="https://vk.com/ruzh_corp"><img src="{{ site.url }}/public/vk-logo.png" width="30" height="30"></a>
+			<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.url }}/public/fb-logo.png" width="30" height="30"></a>
+		</div>
+		
+	</div>
+	
+</div>
+
+{% else %}
+
+	<div class="footer">
+
+		<div class="width-control">
+
+			<div class="copyright">
+			
+					<p style="font-size: 15px">Проект выполнен при поддержке Центра академического развития студентов в рамках Конкурса инициативных коллективных исследовательских проектов студентов Национального исследовательского университета «Высшая школа экономики»</p>  
+				
+					<p style="font-size: 10px">&copy; 2016–{{ site.time | date: '%Y' }}</p>
+				
+			</div>
+			
+			<div class="social">
+				<p>Social</p>
+				<a href="https://vk.com/ruzh_corp"><img src="{{ site.url }}/public/vk-logo.png" width="30" height="30"></a>
+				<a href="https://www.facebook.com/ruzhcorp"><img src="{{ site.url }}/public/fb-logo.png" width="30" height="30"></a>
+			</div>
+			
+		</div>
+		
+	</div>
+
+{% endif %}
