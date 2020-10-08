@@ -11,9 +11,9 @@ cntitle:          'CN Русско-китайский параллельный �
 tagline:          'НКРЯ'
 description:      ''
 cndescription:    ''
-url:              http://localhost
-baseurl:          ''
-imageurl:         ''
+url:              https://ruzcorp-test.github.io
+baseurl:          https://ruzcorp-test.github.io/
+imageurl:         http://ruzcorp-test.github.io/
 
 author:
   name:           'Кирилл Семенов'
