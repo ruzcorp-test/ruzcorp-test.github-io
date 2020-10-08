@@ -4,9 +4,9 @@
 	  <div class="container sidebar-sticky">
 		<div class="sidebar-about">
 		  <h2>
-			<img src="{{ site.url }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
-			<a href="{{ site.url }}/cn/">
+			<a href="{{ site.baseurl }}/cn/">
 			  {{ site.cntitle }}
 			</a>
 		  </h2>
@@ -42,8 +42,8 @@
 	</div>
 
 	<div class="flags">
-		<a href= "{{ site.url }}/{{ page.url | remove: "/cn/" }}">
-			<img src="{{ site.url }}/public/ru-flag.png" width="45" height="30" style="margin-left:auto; margin-bottom:0%; 
+		<a href= "{{ site.baseurl }}/{{ page.url | remove: "/cn/" }}">
+			<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30" style="margin-left:auto; margin-bottom:0%; 
 																				  max-width: 5%">
 		</a>
 	</div>
@@ -62,9 +62,9 @@
 	  <div class="container sidebar-sticky">
 		<div class="sidebar-about dropdown-menu">
 		  <h2>
-			<img src="{{ site.url }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
+			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
-			<a href="{{ site.url }}">
+			<a href="{{ site.baseurl }}">
 			  {{ site.title }}
 			</a>
 		  </h2>
@@ -74,7 +74,7 @@
 		<nav class="sidebar-nav">
 					
 			<ul class="not-marked-menu">
-				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}">Главная</a></li>
+				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.baseurl == '/' %} active{% endif %}" href="{{ site.url }}">Главная</a></li>
 
 
 			  {% comment %}
@@ -101,8 +101,8 @@
 	</div>
 
 	<div class="flags">
-		<a href="{{ site.url }}/cn{{ page.url }}">
-			<img src="{{ site.url }}/public/cn-flag.jpg" width="45" height="30">
+		<a href="{{ site.baseurl }}/cn{{ page.url }}">
+			<img src="{{ site.baseurl }}/public/cn-flag.jpg" width="45" height="30">
 		</a>
 	</div>
 	
