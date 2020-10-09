@@ -6,7 +6,7 @@
 		  <h2>
 			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
-			<a href="{{ site.baseurl }}/cn/">
+			<a href="{{ site.baseurl }}cn/">
 			  {{ site.cntitle }}
 			</a>
 		  </h2>
@@ -16,7 +16,7 @@
 
 		<nav class="sidebar-nav">
 			<ul class="not-marked-menu">
-				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/cn/' %} active{% endif %}" href="{{ site.baseurl }}/cn/">Главная (cn)</a></li>
+				<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/cn/' %} active{% endif %}" href="{{ site.baseurl }}cn/">Главная (cn)</a></li>
 
 			  {% comment %}
 				The code below dynamically generates a sidebar nav of pages with
@@ -42,7 +42,7 @@
 	</div>
 
 	<div class="flags">
-		<a href= "{{ site.baseurl }}/{{ page.url | remove: "/cn/" }}">
+		<a href= "{{ site.baseurl }}{{ page.url | remove: "/cn/" }}">
 			<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30" style="margin-left:auto; margin-bottom:0%; 
 																				  max-width: 5%">
 		</a>
@@ -101,7 +101,7 @@
 	</div>
 
 	<div class="flags">
-		<a href="{{ site.baseurl }}/cn{{ page.url }}">
+		<a href="{{ site.baseurl }}cn{{ page.url }}">
 			<img src="{{ site.baseurl }}/public/cn-flag.jpg" width="45" height="30">
 		</a>
 	</div>
