@@ -1,8 +1,16 @@
 {% if page.url contains '/cn/' %}
 
-	<div class="sidebar">
+	<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+			
+	<label class="btn-menu" for="hmt">
+		<span class="first"></span>
+		<span class="second"></span>
+		<span class="third"></span>
+	</label>
+
+	<div class="sidebar hidden-menu">
 	  <div class="container sidebar-sticky">
-		<div class="sidebar-about">
+		<div class="sidebar-about dropdown-menu">
 		  <h2>
 			<img src="{{ site.baseurl }}/public/output-onlinepngtools.png" style="margin-left:auto; margin-bottom:0%; 
 																				 margin-right:auto; max-width: 80%">
@@ -43,8 +51,7 @@
 
 	<div class="flags">
 		<a href= "{{ site.baseurl }}{{ page.url | remove: "/cn/" }}">
-			<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30" style="margin-left:auto; margin-bottom:0%; 
-																				  max-width: 5%">
+			<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30">
 		</a>
 	</div>
 	
