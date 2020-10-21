@@ -50,9 +50,11 @@
 	</div>
 
 	<div class="flags">
-		<a href= "{{ site.baseurl }}{{ page.url | remove: "/cn/" }}">
-			<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30">
-		</a>
+		<div class="flag-link">
+			<a href= "{{ site.baseurl }}{{ page.url | remove: "/cn/" }}">
+				<img src="{{ site.baseurl }}/public/ru-flag.png" width="45" height="30">
+			</a>
+		</div>
 	</div>
 	
 {% else %}
@@ -108,9 +110,11 @@
 	</div>
 
 	<div class="flags">
-		<a href="{{ site.baseurl }}cn{{ page.url }}">
-			<img src="{{ site.baseurl }}/public/cn-flag.jpg" width="45" height="30">
-		</a>
+		<div class="flag-link">
+			<a href="{{ site.baseurl }}cn{{ page.url }}">
+				<img src="{{ site.baseurl }}/public/cn-flag.jpg" width="45" height="30">
+			</a>
+		</div>
 	</div>
 	
 {% endif %}
