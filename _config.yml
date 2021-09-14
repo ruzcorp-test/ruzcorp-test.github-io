@@ -8,12 +8,14 @@ permalink:        pretty
 # Setup
 title:            'Русско-китайский параллельный корпус НКРЯ'
 cntitle:          '俄语国家语料库·俄汉平行语料库'
+entitle:          'Russian-Chinese parallel corpus of Russian National Corpus'
 tagline:          'НКРЯ'
 description:      ''
 cndescription:    ''
-url:              https://ruzcorp-test.github.io
-baseurl:          https://ruzcorp-test.github.io/
-imageurl:         https://ruzcorp-test.github.io/
+endescription:    ''
+url:              https://ruzhcorp.github.io
+baseurl:          https://ruzhcorp.github.io/
+imageurl:         http://ruzhcorp.github.io/
 
 author:
   name:           'Кирилл Семенов'
@@ -21,11 +23,8 @@ author:
 
 paginate:         5
 
-
 # Custom vars
 version:          Beta-0.0.1
 
 github:
   repo:           https://github.com/ruzhcorp
-
-#repository:       ruzhcorp/ruzhcorp.github.io

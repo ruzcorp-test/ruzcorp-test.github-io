@@ -1,11 +1,12 @@
 ---
 layout: default
+lang: cn
 ---
 
 ## 俄语国家语料库·俄汉平行语料库
   > [俄语国家语料库](http://www.ruscorpora.ru/new/) (НКРЯ) 是最大、最优质的俄语语料库之一。该语料库包含大量子语料库。这些子语料库是语言研究具体领域（如：句法、重音等）的数据库。其中的 [平行语料库](http://www.ruscorpora.ru/new/search-para-en.html)  又分成20个俄语-外语语料库。
   
-  > 想了解更多平行语料库的信息请点击 [这里](https://ruzhcorp.github.io/pages/1_parallel/).
+  > 想了解更多平行语料库的信息请点击 [这里](https://ruzhcorp.github.io/cn/pages/1_parallel/).
 
 ### 语料库小史
 
@@ -48,4 +49,4 @@ layout: default
 - [莫斯科物理技术研究所(МФТИ)](https://mipt.ru/english/ )
 - [圣彼得堡国立大学 (СПбГУ)](https://chinese.spbu.ru/)
 
-虽然团队已有十余人参与语料库开发工作，但仍有大量问题尚需解决，我们正在寻求积极主动的参与者，如果您对我们的项目感兴趣，请关注 [职位需求](https://ruzhcorp.github.io/pages/vacancy/)，期待有识之士的加入！
+虽然团队已有十余人参与语料库开发工作，但仍有大量问题尚需解决，我们正在寻求积极主动的参与者，如果您对我们的项目感兴趣，请关注 [职位需求](https://ruzhcorp.github.io/cn/pages/3_vacancy/)，期待有识之士的加入！
