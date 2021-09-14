@@ -13,9 +13,9 @@ tagline:          'НКРЯ'
 description:      ''
 cndescription:    ''
 endescription:    ''
-url:              https://ruzhcorp.github.io
-baseurl:          https://ruzhcorp.github.io/
-imageurl:         http://ruzhcorp.github.io/
+url:              https://ruzcorp-test.github.io
+baseurl:          https://ruzcorp-test.github.io/
+imageurl:         https://ruzcorp-test.github.io/
 
 author:
   name:           'Кирилл Семенов'
