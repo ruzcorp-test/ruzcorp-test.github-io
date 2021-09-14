@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ?Наши продукты
-lang: en
+lang: cn
 ---
 
 ?
