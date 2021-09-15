@@ -12,7 +12,7 @@ lang: en
 
 Our corpus appeared exactly inside the RNC in 2016. In 2019, it became available on two pages — there is its ["old”](http://www.ruscorpora.ru/new/search-para-zh.html) the version on the RNC website, and ["new”](https://linghub.ru/rnc_parallel_chinese/search) — on the website of the HSE corpora.
 
-In 2020, [we received] (https://studscience.hse.ru/news/348490285.html) support from the HSE for the development of our project.
+In 2020, [we received](https://studscience.hse.ru/news/348490285.html) support from the HSE for the development of our project.
 
 We do not break away from our roots and still associate ourselves with the RNC; however, for a number of reasons, it is much easier for us to update the version of the Corpus on the HSE website. Therefore, first of all, we will talk about the news, algorithms, composition and team of the version of the Corpus that is located on the website of the HSE corpora.
 
@@ -47,5 +47,5 @@ Our project involves students, teachers and researchers of the following institu
 - [Moscow Institute of Physics and Technology (MIPT)](http://mipt.ru/)
 - [Saint Petersburg State University (St. Petersburg State University)](http://spbu.ru/)
 
-Dozens of people work on the corpus. But we still have a huge number of unresolved tasks, for which there are not enough active and courageous participants. Therefore, if you are interested in our project, be sure to look at our [vacancies] (https://ruzhcorp.github.io/pages/vacancy/)!
+Dozens of people work on the corpus. But we still have a huge number of unresolved tasks, for which there are not enough active and courageous participants. Therefore, if you are interested in our project, be sure to look at our [vacancies](https://ruzhcorp.github.io/pages/vacancy/)!
 
