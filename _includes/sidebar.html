@@ -40,18 +40,6 @@
 			<ul class="not-marked-menu">
 			
 				{% if page.lang == "ru" %}
-					<li class="not-marked-menu searchers-one"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Поиск в корпусе</a></li>
-					<li class="not-marked-menu searchers-two"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Поиск в корпусе (НКРЯ)</a></li>
-				{% endif %}
-				{% if page.lang == "en" %}
-					<li class="not-marked-menu searchers-one"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Search in Corpus</a></li>
-					<li class="not-marked-menu searchers-two"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Search in Corpus(NRC)</a></li>
-				{% endif %}
-				{% if page.lang == "cn" %}
-					<li class="not-marked-menu searchers-one"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">语料库搜索</a></li>
-					<li class="not-marked-menu searchers-two"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Ruscorpora搜索</a></li>
-				{% endif %}
-				{% if page.lang == "ru" %}
 					<li class="not-marked-menu"><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}">Главная</a></li>
 				{% endif %}
 				{% if page.lang == "en" %}
@@ -78,6 +66,18 @@
 				{% endif %}
 			  {% endfor %}
 				
+				{% if page.lang == "ru" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Поиск в корпусе</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Поиск в корпусе (НКРЯ)</a></li>
+				{% endif %}
+				{% if page.lang == "en" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">Search in Corpus</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Search in Corpus(NRC)</a></li>
+				{% endif %}
+				{% if page.lang == "cn" %}
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://linghub.ru/rnc_parallel_chinese/search" target="_blank">语料库搜索</a></li>
+					<li class="not-marked-menu"><a class="sidebar-nav-item" href="https://ruscorpora.ru/new/search-para-zh.html" target="_blank">Ruscorpora搜索</a></li>
+				{% endif %}
 			</ul>
 		</nav>
 
